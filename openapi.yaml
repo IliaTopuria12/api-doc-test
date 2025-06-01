@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpenAI API - Modificado 4
+  title: OpenAI API - Last Version
   description: The OpenAI REST API. Please see
     https://platform.openai.com/docs/api-reference for more details.
   version: 2.3.0
@@ -52,8 +52,6 @@ tags:
     description: List user actions and configuration changes within this organization.
   - name: monitoring
     description: Tag agregado para pruebas
-  - name: Chatbot
-    description: Chat with ai to find your favourite meal.
 
 paths:
   /assistants:
@@ -12038,7 +12036,7 @@ paths:
       operationId: createThread
       tags:
         - Assistants
-      summary: Create a thread.
+      summary: Create a thread with only subject possible.
       requestBody:
         content:
           application/json:
