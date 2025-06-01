@@ -53,7 +53,7 @@ tags:
   - name: monitoring
     description: Tag agregado para pruebas
   - name: Chatbot
-  description: Chat with ai to find your favourite meal.
+    description: Chat with ai to find your favourite meal.
 
 paths:
   /assistants:
