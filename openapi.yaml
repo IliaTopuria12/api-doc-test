@@ -1,6 +1,6 @@
 openapi: 3.6.0
 info:
-  title: OpenAI API - The Biggest Environment
+  title: OpenAI API - Limited Version
   description: The OpenAI REST API. Please see
     https://platform.openai.com/doccumentation/api-reference for more details.
   version: 2.3.0
@@ -32,20 +32,11 @@ tags:
       consumed by machine learning models and algorithms.
   - name: Evals
     description: Manage and run evals in the OpenAI platform.
-  - name: Fine-tuning
-    description: Manage fine-tuning jobs to tailor a model to your specific training data.
-  - name: Batch
-    description: Create large batches of API requests to run asynchronously.
-  - name: Files
-    description: Files are used to upload documents that can be used with features
-      like Assistants and Fine-tuning.
-  - name: Uploads
-    description: Use Uploads to upload large files in multiple parts.
 
 paths:
   /assistants:
     get:
-      operationId: listAssistants
+      operationId: modifiedAgents
       tags:
         - Assistants
       summary: Returns a list of assistants.
