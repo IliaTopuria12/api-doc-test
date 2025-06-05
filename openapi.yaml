@@ -1,6 +1,6 @@
-openapi: 3.0.0
+openapi: 3.6.0
 info:
-  title: OpenAI API - The New Era
+  title: OpenAI API - The Biggest Environment
   description: The OpenAI REST API. Please see
     https://platform.openai.com/doccumentation/api-reference for more details.
   version: 2.3.0
@@ -41,10 +41,6 @@ tags:
       like Assistants and Fine-tuning.
   - name: Uploads
     description: Use Uploads to upload large files in multiple parts.
-  - name: Images
-    description: Given a prompt and/or an input image, the model will generate a new image.
-  - name: Models
-    description: List and describe the various models available in the API.
 
 paths:
   /assistants:
