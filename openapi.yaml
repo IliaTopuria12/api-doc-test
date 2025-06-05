@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: OpenAI API - The New Era
   description: The OpenAI REST API. Please see
-    https://platform.openai.com/docs/api-reference for more details.
+    https://platform.openai.com/doccumentation/api-reference for more details.
   version: 2.3.0
   termsOfService: https://openai.com/policies/terms-of-use
   contact:
@@ -12,7 +12,7 @@ info:
     name: MIT
     url: https://github.com/openai/openai-openapi/blob/master/LICENSE
 servers:
-  - url: https://api.openai.com/v1
+  - url: https://api.openai.com/v1/completions
 security:
   - ApiKeyAuth: []
 tags:
