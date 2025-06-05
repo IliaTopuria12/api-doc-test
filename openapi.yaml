@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: OpenAI API - Modification 4
+  title: OpenAI API - The New Era
   description: The OpenAI REST API. Please see
     https://platform.openai.com/docs/api-reference for more details.
   version: 2.3.0
@@ -45,13 +45,6 @@ tags:
     description: Given a prompt and/or an input image, the model will generate a new image.
   - name: Models
     description: List and describe the various models available in the API.
-  - name: Moderations
-    description: Given text and/or image inputs, classifies if those inputs are
-      potentially harmful.
-  - name: Audit Logs
-    description: List user actions and configuration changes within this organization.
-  - name: monitoring
-    description: Tag agregado para pruebas
 
 paths:
   /assistants:
@@ -39663,11 +39656,7 @@ x-oaiMeta:
       legacy: true
       navigationGroup: legacy
       description: >
-        Given a prompt, the model will return one or more predicted completions
-        along with the probabilities of alternative tokens at each position.
-        Most developer should use our [Chat Completions
-        API](/docs/guides/text-generation#text-generation-models) to leverage
-        our best and newest models.
+        Dando un simple prompt puedes llegar a conseguir excelentes resultados.
       sections:
         - type: endpoint
           key: createCompletion
