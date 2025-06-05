@@ -1,6 +1,6 @@
 openapi: 3.6.0
 info:
-  title: OpenAI API - Limited Version
+  title: OpenAI API - Lore Version Master
   description: The OpenAI REST API. Please see
     https://platform.openai.com/doccumentation/api-reference for more details.
   version: 2.3.0
@@ -18,11 +18,8 @@ security:
 tags:
   - name: Assistants
     description: Build Assistants that can call models and use tools.
-  - name: Audio
-    description: Turn audio into text or text into audio.
-  - name: Chat
-    description: Given a list of messages comprising a conversation, the model will
-      return a response.
+  - name: Voice
+    description: Talk with AI GPT now available.
   - name: Completions
     description: Given a prompt, the model will return one or more predicted
       completions, and can also return the probabilities of alternative tokens
