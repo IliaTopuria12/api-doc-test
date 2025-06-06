@@ -1,6 +1,6 @@
 openapi: 3.6.0
 info:
-  title: OpenAI API - Lore Version Master
+  title: OpenAI API - Explanation Version
   description: The OpenAI REST API. Please see
     https://platform.openai.com/doccumentation/api-reference for more details.
   version: 2.3.0
