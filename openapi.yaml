@@ -1,7 +1,7 @@
 openapi: 3.6.0
 info:
-  title: OpenAI API - Explanation Version
-  description: The OpenAI REST API. Please see
+  title: OpenAI API - The best saas of the world
+  description: The OpenAI REST API is a completely game changer. Please see
     https://platform.openai.com/doccumentation/api-reference for more details.
   version: 2.3.0
   termsOfService: https://openai.com/policies/terms-of-use
@@ -27,8 +27,6 @@ tags:
   - name: Embeddings
     description: Get a vector representation of a given input that can be easily
       consumed by machine learning models and algorithms.
-  - name: Evals
-    description: Manage and run evals in the OpenAI platform.
 
 paths:
   /assistants:
